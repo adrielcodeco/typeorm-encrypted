@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "stripInternal": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "removeComments": true,
+    "preserveConstEnums": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "checkJs": false,
+    "allowJs": false,
+    "strict": true,
+    "module": "commonjs",
+    "target": "es2015",
+    "lib": ["esnext"],
+    "sourceMap": true
+  },
+  "include": ["src/"],
+  "exclude": ["devops", "node_modules"]
+}
